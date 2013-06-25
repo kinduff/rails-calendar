@@ -1,6 +1,6 @@
 Calendario Rails
 ================
-Proyecto de research con gema *event_calendar* para desarrollo de micrositio de doctores de Derma México.
+Proyecto de research con gema [event calendar](http://github.com/elevation/event_calendar 'event_calendar gem') para desarrollo de micrositio de doctores de Derma México.
 
 ## Características
 

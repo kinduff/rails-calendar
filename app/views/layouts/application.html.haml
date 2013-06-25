@@ -6,5 +6,10 @@
     = csrf_meta_tags
   %body
     #wrap
+      %p{:style => 'float:right;'}
+        With love by
+        =link_to 'Kinduff', 'http://twitter.com/kinduff'
+        |
+        =link_to 'Fork this thing', 'http://github.com/kinduff/rails-calendar'
       = yield
     = javascript_include_tag "application"
