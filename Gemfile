@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'haml'
 gem 'haml-rails'
+gem 'event-calendar', :require => 'event_calendar'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
