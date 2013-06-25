@@ -15,3 +15,6 @@ Proyecto de research con gema *event_calendar* para desarrollo de micrositio de 
   + Descripcion
   + Fecha de inicio
   + Fecha de fin
+
+## Demo
+[Ir a demo](http://kinduff-calendar.herokuapp.com/  'Ir a demo')
