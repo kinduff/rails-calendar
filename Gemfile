@@ -5,6 +5,7 @@ gem 'pg'
 gem 'haml'
 gem 'haml-rails'
 gem 'event-calendar', :require => 'event_calendar'
+gem 'jquery-minicolors-rails'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

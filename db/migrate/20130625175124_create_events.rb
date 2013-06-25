@@ -5,6 +5,7 @@ class CreateEvents < ActiveRecord::Migration
       t.string :descripcion
       t.datetime :start_at
       t.datetime :end_at
+      t.string :color
       t.boolean :all_day, :default => false
       
       t.timestamps

@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(:version => 20130625175124) do
     t.string   "descripcion"
     t.datetime "start_at"
     t.datetime "end_at"
+    t.string   "color"
     t.boolean  "all_day",     :default => false
     t.datetime "created_at",                     :null => false
     t.datetime "updated_at",                     :null => false
