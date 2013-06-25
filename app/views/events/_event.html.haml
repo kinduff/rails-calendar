@@ -3,3 +3,5 @@
 %p= @event.start_at
 %p= @event.end_at
 %p= @event.all_day ? 'All day' : ''
+%p= link_to 'Edit', edit_event_path(@event)
+%p= link_to 'Delete', @event, :confirm => 'Are you sure?', :method => :delete

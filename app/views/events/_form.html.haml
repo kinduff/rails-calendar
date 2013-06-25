@@ -1,0 +1,18 @@
+= form_for @event do |f|
+  %p
+    = f.label :name
+    = f.text_field :name
+  %p
+    = f.label :descripcion
+    = f.text_field :descripcion
+  %p
+    = f.label :start_at
+    = f.date_select :start_at, :order => [:day, :month, :year]
+  %p#endat
+    = f.label :end_at
+    = f.date_select :end_at, :order => [:day, :month, :year]
+  %p
+    = f.label :all_day
+    = f.check_box :all_day
+  %p
+    = f.submit
